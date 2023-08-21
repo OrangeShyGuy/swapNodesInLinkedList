@@ -14,7 +14,6 @@ class Solution:
          else:
            adjacentNode = currentNode.next
            while currentNode != None and currentNode.next != None:
-             #previousNode.next = currentNode
              temp = adjacentNode.next
              previousNode.next = currentNode.next
              adjacentNode.next = currentNode
